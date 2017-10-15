@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2aba6bc130474084b45a6bf4d7899ffa" Name="Diagram1">
+        <EntityTypeShape EntityType="GestionRequerimientoModel.Categoria" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestionRequerimientoModel.Estados" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestionRequerimientoModel.Proyecto" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestionRequerimientoModel.Requerimiento" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestionRequerimientoModel.Severidad" Width="1.5" PointX="0.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestionRequerimientoModel.Usuarios" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <AssociationConnector Association="GestionRequerimientoModel.FK__Requerimi__Categ__182C9B23" ManuallyRouted="false" />
+        <AssociationConnector Association="GestionRequerimientoModel.FK__Requerimi__Estad__164452B1" ManuallyRouted="false" />
+        <AssociationConnector Association="GestionRequerimientoModel.FK__Requerimi__Sever__173876EA" ManuallyRouted="false" />
+        <AssociationConnector Association="GestionRequerimientoModel.FK__Requerimi__Usuar__145C0A3F" ManuallyRouted="false" />
+        <AssociationConnector Association="GestionRequerimientoModel.FK__Requerimi__Usuar__15502E78" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
